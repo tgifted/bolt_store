@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@1,300&family=My+Soul&family=Nunito:ital,wght@0,300;0,500;0,700;0,800;1,300;1,500&family=Poppins:ital,wght@0,300;0,400;0,600;1,500&family=Raleway:wght@300&family=Roboto+Condensed&family=Satisfy&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.congrats{
+    font-size: 1.9rem;
+    color: #fff;
+    box-shadow: 5px 5px 10px black;
+    background-color: orangered;
+    padding: 2rem .5rem;
+    border-radius: 2rem;
+    animation-name: congrats;
+    animation-duration: 10s;
+    text-align: center;
+}
+
+
+
+@keyframes congrats{
+    from {
+        top: -400px;
+        opacity: 0;
+    }
+
+    to{
+        top: 50%;
+        opacity: 1;
+    }
+}
